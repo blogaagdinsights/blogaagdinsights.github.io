@@ -1,0 +1,23 @@
+# Site settings
+title: Advanced Analytics Blog
+email: contact@aagdinsights.com
+description: > # Advanced Analytics Of Global Data Blog
+  We share nice data research, technics and methods here.
+  All the analysis is made on open source data
+  so you can reproduce, fork and reuse all the content
+  keeping the original links to our blog.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.aagdinsights.com" # the base hostname & protocol for your site
+twitter_username: aagdinsights
+github_username:  aagdinsights
+
+# Build settings
+markdown: kramdown
+
+paginate: 5
+
+author: AAGD
+
+gems: [jekyll-paginate]
+
+encoding: utf-8
